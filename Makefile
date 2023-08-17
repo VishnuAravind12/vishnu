@@ -1,10 +1,10 @@
 # Configuration, override port with usage: make PORT=4300
 PORT ?= 4200
-REPO_NAME ?= student
+REPO_NAME ?= vishnu
 LOG_FILE = /tmp/jekyll$(PORT).log
 # Exceptions will stop make
 SHELL = /bin/bash
-.SHELLFLAGS = -e
+# .SHELLFLAGS = -e
 
 # Phony Targets, makefile housekeeping for below definitions
 .PHONY: default server convert clean stop
@@ -56,10 +56,10 @@ default: server
 # Start the local web server
 server: stop convert
 	@echo "Starting server..."
-	@@nohup bundle exec jekyll serve -H 0.0.0.0 -P $(PORT) > $(LOG_FILE) 2>&1 & \
+	@nohup bundle exec jekyll serve -H 0.0.0.0 -P $(PORT) > $(LOG_FILE) 2>&1 & \
 		PID=$$!; \
 		echo "Server PID: $$PID"
-	@@until [ -f $(LOG_FILE) ]; do sleep 1; done
+	@until [ -f $(LOG_FILE) ]; do sleep 1; done
 
 
 # Convert .ipynb files to Markdown with front matter
@@ -73,17 +73,17 @@ $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 # Clean up project derived files, to avoid run issues stop is dependency
 clean: stop
 	@echo "Cleaning converted IPYNB files..."
-	@@rm -f _posts/*_IPYNB_2_.md
+	@rm -f _posts/*_IPYNB_2_.md
 	@rm -rf _site
 
 
 # Stop the server and kill processes
 stop:
-	@echo "Stopping server..."
+	@echo "Scars of Gate..."
 	@# kills process running on port $(PORT)
-	@@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
+	@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
 	@echo "Stopping logging process..."
 	@# kills previously running logging processes
-	@@ps aux | awk -v log_file=$(LOG_FILE) '$$0 ~ "tail -f " log_file { print $$2 }' | xargs kill >/dev/null 2>&1 || true
+	@ps aux | awk -v log_file=$(LOG_FILE) '$$0 ~ "tail -f " log_file { print $$2 }' | xargs kill >/dev/null 2>&1 || true
 	@# removes log
 	@rm -f $(LOG_FILE)
