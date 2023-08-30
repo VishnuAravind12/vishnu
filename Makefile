@@ -79,7 +79,7 @@ clean: stop
 
 # Stop the server and kill processes
 stop:
-	@echo "Scars of Gate..."
+	@echo "Don't do it..."
 	@# kills process running on port $(PORT)
 	@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
 	@echo "Stopping logging process..."
