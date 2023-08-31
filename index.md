@@ -22,12 +22,85 @@ I'm Vishnu Aravind, a Sacramento Kings fan and I like biology. In terms of CS, m
 
 
 
-| Week | Plans | Hacks(Todo) | Tangibles |
-|------|-------|-------------|-----------|
-| 0    | - Set up and get familiar With tools<br>- Learn bash, and figure out vscode<br>- Sample IPYNB w/ html,img | | - [Loving My Tools](http://localhost:4200/student/2023/08/22/Loving_My_Tools.html)<br>- [Linux and Bash](http://localhost:4200/student/2023/08/22/linux-and-bash_IPYNB_2_.html)<br>- [First Post](http://localhost:4200/student/2023/08/17/First_Post.html) |
-| 1    | - Sample of Detail Plan<br>- Sample IPYNB w/ table,code<br>- Sample Review Ticket | | - [Hello Static](http://localhost:4200/student/2023/08/21/hellostatic_IPYNB_2_.html)<br>- [Calculator](http://localhost:4200/student/2023/08/20/Calculator.html)<br>- [Console Games](http://localhost:4200/student/2023/08/24/Console-Games_IPYNB_2_.html) |
-| 2    | | - Calculator IPYNB<br>- Game of Life | - [JS Weather API](http://localhost:4200/student/2023/08/29/JS_Weather_API.html)<br>- [Snake](http://localhost:4200/student/2023/08/30/Snake.html) |
-| 3    | | | |
+<table style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Week</th>
+            <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Plans</th>
+            <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Hacks(Todo)</th>
+            <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Tangibles</th>
+            <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Review Ticker/Issues</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>
+                - Install and get familiar with tools<br>
+                - Get a feel for bash and wsl<br>
+                - Get familiar with teammate
+            </td>
+            <td>
+                - Tools installation<br>
+                - Bash Notebook
+            </td>
+            <td>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/22/Loving_My_Tools.html">Loving My Tools</a><br>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/22/linux-and-bash_IPYNB_2_.html">Linux and Bash</a><br>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/17/First_Post.html">First Post</a>
+            </td>
+            <td>
+                N/A
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+                - Learn the fundementals of HTML/CSS/JS<br>
+                - Best way to learn is from a project<br>
+                - Learn fundementals of Java (Constructors, Setters, Getters, Syntax)
+            </td>
+            <td>
+                - Code a calculator using HTML/CSS/JS<br>
+                - Do the HelloStatic Assignment
+            </td>
+            <td>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/21/hellostatic_IPYNB_2_.html">Hello Static</a><br>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/20/Calculator.html">Calculator</a><br>
+            </td>
+            <td>
+                N/A
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                - Learn API Stuff, and jquery<br>
+                - Delve deeper into Java stuff (error handling, if/else, )
+            </td>
+            <td>
+                - Follow along with Mr. Mort for Snake Game Setup<br>
+                - Use weather API to create simple applciation with HTML/CSS/JS for finding the weather in cities<br>
+                - Code, using Java, a TicTacToe game for two players
+            </td>
+            <td>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html">JS Weather API</a><br>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/30/Snake.html">Snake</a>
+                <a href="https://vishnuaravind12.github.io/vishnu/2023/08/24/Console-Games_IPYNB_2_.html">Console Games</a>
+            </td>
+            <td>
+                <a href="https://github.com/VishnuAravind12/vishnu/issues/1">Specific Things for Improvement</a><br>
+                <a href="https://github.com/VishnuAravind12/vishnu/issues/2">Guidelines for Future Teamwork</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 
 
