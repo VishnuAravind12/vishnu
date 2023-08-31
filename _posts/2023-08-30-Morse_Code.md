@@ -25,7 +25,8 @@ type: hacks
         '.': '.-.-.-', ',': '--..--', '?': '..--..', "'": '.----.', '!': '-.-.--', '/': '-..-.', '(': '-.--.', ')': '-.--.-', '&': '.-...', ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-', '_': '..--.-', '"': '.-..-.', '$': '...-..-', '@': '.--.-.', ' ': '/'
     };
 
-    function uniquetranslate() {
+    function uniqueTranslateFunction() {
+        console.log("UniqueTranslateFunction called"); // Debug log
         const input = document.getElementById("inputText").value.toUpperCase();
         let output = "";
 
@@ -49,4 +50,6 @@ type: hacks
 
         document.getElementById("outputText").value = output.trim();
     }
+
+    document.getElementById("translateButton").addEventListener("click", uniqueTranslateFunction);
 </script>
