@@ -11,12 +11,13 @@ type: hacks
 
 ### Input:
 <textarea id="inputText" rows="4" cols="50" placeholder="Enter text or Morse code..."></textarea><br>
-<button onclick="translate()">Translate</button>
+<button id="translateButton">Translate</button>
 
 ### Output:
 <textarea id="outputText" rows="4" cols="50" readonly></textarea>
 
 <script>
+document.addEventListener("DOMContentLoaded", function() {
     const morseCodeDict = {
         'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....', 'I': '..', 'J': '.---',
         'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-',
@@ -25,8 +26,7 @@ type: hacks
         '.': '.-.-.-', ',': '--..--', '?': '..--..', "'": '.----.', '!': '-.-.--', '/': '-..-.', '(': '-.--.', ')': '-.--.-', '&': '.-...', ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-', '_': '..--.-', '"': '.-..-.', '$': '...-..-', '@': '.--.-.', ' ': '/'
     };
 
-    function uniqueTranslateFunction() {
-        console.log("UniqueTranslateFunction called"); // Debug log
+    function translate() {
         const input = document.getElementById("inputText").value.toUpperCase();
         let output = "";
 
@@ -51,5 +51,7 @@ type: hacks
         document.getElementById("outputText").value = output.trim();
     }
 
-    document.getElementById("translateButton").addEventListener("click", uniqueTranslateFunction);
+    // Attach the translate function to the button's click event
+    document.getElementById("translateButton").addEventListener("click", translate);
+});
 </script>
