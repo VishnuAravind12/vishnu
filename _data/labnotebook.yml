@@ -1,0 +1,62 @@
+- week: 0
+  plans:
+    - Install and get familiar with tools
+    - Get a feel for bash and wsl
+    - Get familiar with teammate
+  hacks:
+    - Tools installation
+    - Bash Notebook
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/Loving_My_Tools.html
+      text: Loving My Tools
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/linux-and-bash_IPYNB_2_.html
+      text: Linux and Bash
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/17/First_Post.html
+      text: First Post
+  review: N/A
+
+- week: 1
+  plans:
+    - Learn the fundamentals of HTML/CSS/JS
+    - Best way to learn is from a project
+    - Learn fundamentals of Java (Constructors, Setters, Getters, Syntax)
+  hacks:
+    - Code a calculator using HTML/CSS/JS
+    - Do the HelloStatic Assignment
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/21/hellostatic_IPYNB_2_.html
+      text: Hello Static
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/20/Calculator.html
+      text: Calculator
+  review: N/A
+
+- week: 2
+  plans:
+    - Delve deeper into Java stuff (error handling, if/else)
+  hacks:
+    - Follow along with Mr. Mort for Snake Game Setup
+    - Code, using Java, a TicTacToe game for two players
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/30/Snake.html
+      text: Snake
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/24/Console-Games_IPYNB_2_.html
+      text: Console Games
+  review:
+    - url: https://github.com/VishnuAravind12/vishnu/issues/1
+      text: Specific Things for Improvement
+    - url: https://github.com/VishnuAravind12/vishnu/issues/2
+      text: Guidelines for Future Teamwork
+
+- week: 3
+  plans:
+    - Continue woking with Java
+    - Start work with sprites
+    - Learn API Stuff, and jquery
+  hacks: 
+    - Use weather API to create simple application with HTML/CSS/JS for finding the weather in cities
+    - Matrix Multiplication with Java
+    - Get Gold to move on key command
+  tangibles: 
+    - url: https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html
+      text: JS Weather API
+  review: Working on it
