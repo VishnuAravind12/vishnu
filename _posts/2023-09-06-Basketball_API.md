@@ -4,7 +4,9 @@ layout: default
 description: Fetch and visualize NBA player stats
 ---
 
-Cam on m8
+Get your favorite player's stats!
+
+
 <html lang="en">
 
 <head>
