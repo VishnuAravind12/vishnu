@@ -54,9 +54,15 @@
     - Learn API Stuff, and jquery
   hacks: 
     - Use weather API to create simple application with HTML/CSS/JS for finding the weather in cities
+    - Use BallDontLie API to get started on basketball data web app
     - Matrix Multiplication with Java
     - Get Gold to move on key command
   tangibles: 
     - url: https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html
       text: JS Weather API
-  review: Working on it
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/06/Basketball_API.html
+      text: JS BBall Stats API
+  review: 
+    - url: https://github.com/VishnuAravind12/vishnu/issues/3
+      text: Week 3 Review Ticket
+      

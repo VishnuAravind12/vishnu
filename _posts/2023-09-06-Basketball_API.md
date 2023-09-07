@@ -6,7 +6,6 @@ description: Fetch and visualize NBA player stats
 
 Get your favorite player's stats!
 
-
 <html lang="en">
 
 <head>
@@ -35,6 +34,12 @@ Get your favorite player's stats!
         table th {
             background-color: #f2f2f2;
         }
+
+        #fantasyScore {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -42,6 +47,7 @@ Get your favorite player's stats!
 
 <input type="text" id="playerName" placeholder="Enter player name">
 <button id="fetchButton">Get Player Stats</button>
+<div id="fantasyScore"></div>
 <h3>General Info</h3>
 <table id="playerTable">
     <thead>
@@ -79,6 +85,8 @@ $(document).ready(function() {
             $.getJSON(`https://www.balldontlie.io/api/v1/season_averages?season=2022&player_ids[]=${player.id}`, function(statsData) {
                 if (statsData.data && statsData.data.length > 0) {
                     displayDetailedStats(statsData.data[0]);
+                    const fantasyRating = computeFantasyRating(statsData.data[0]);
+                    $("#fantasyScore").html(`Fantasy Rating: ${fantasyRating}/10`);
                 } else {
                     alert("Detailed stats not available for this player.");
                 }
@@ -137,6 +145,45 @@ function displayDetailedStats(stats) {
     }
 }
 
+function computeFantasyRating(stats) {
+    // Weights for each stat
+    const weights = {
+        pts: 0.2,
+        reb: 0.15,
+        ast: 0.15,
+        stl: 0.1,
+        blk: 0.1,
+        fg_pct: 0.1,
+        ft_pct: 0.1,
+        fg3_pct: 0.05,
+        turnover: -0.05  // Negative weight since turnovers are bad
+    };
+
+    // Normalize each stat to a scale of 0 to 1
+    // For simplicity, we'll use some arbitrary max values for normalization
+    const normalizedStats = {
+        pts: stats.pts / 30,
+        reb: stats.reb / 15,
+        ast: stats.ast / 10,
+        stl: stats.stl / 5,
+        blk: stats.blk / 5,
+        fg_pct: stats.fg_pct,
+        ft_pct: stats.ft_pct,
+        fg3_pct: stats.fg3_pct,
+        turnover: stats.turnover / 5
+    };
+
+    // Compute the weighted sum
+    let rawScore = 0;
+    for (const key in weights) {
+        rawScore += normalizedStats[key] * weights[key];
+    }
+
+    // Scale the raw score to a rating out of 10
+    const rating = Math.min(Math.max(rawScore * 10, 0), 10);
+
+    return rating.toFixed(1);  // Return the rating rounded to one decimal place
+}
 
 </script>
 
