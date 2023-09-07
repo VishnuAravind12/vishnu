@@ -41,7 +41,7 @@ Get your favorite player's stats!
 <body>
 
 <input type="text" id="playerName" placeholder="Enter player name">
-<button onclick="fetchPlayerData()">Get Player Stats</button>
+<button id="fetchButton">Get Player Stats</button>
 <h3>General Info</h3>
 <table id="playerTable">
     <thead>
@@ -65,47 +65,44 @@ Get your favorite player's stats!
 </table>
 
 <script>
-function fetchPlayerData() {
-    const playerName = document.getElementById("playerName").value.split(" ");
-    const firstName = playerName[0];
-    const lastName = playerName[1];
+$(document).ready(function() {
+    $("#fetchButton").click(function() {
+        const playerName = $("#playerName").val().split(" ");
+        const firstName = playerName[0];
+        const lastName = playerName[1];
 
-    fetch(`https://www.balldontlie.io/api/v1/players?search=${firstName}%20${lastName}`)
-        .then(response => response.json())
-        .then(data => {
+        $.getJSON(`https://www.balldontlie.io/api/v1/players?search=${firstName}%20${lastName}`, function(data) {
             const player = data.data[0];
             displayGeneralInfo(player);
 
             // Fetch detailed stats using player's ID for the 2022 season
-            fetch(`https://www.balldontlie.io/api/v1/season_averages?season=2022&player_ids[]=${player.id}`)
-                .then(response => response.json())
-                .then(statsData => {
-                    if (statsData.data && statsData.data.length > 0) {
-                        displayDetailedStats(statsData.data[0]);
-                    } else {
-                        alert("Detailed stats not available for this player.");
-                    }
-                });
-        })
-        .catch(error => {
-            console.error("Error fetching player data:", error);
+            $.getJSON(`https://www.balldontlie.io/api/v1/season_averages?season=2022&player_ids[]=${player.id}`, function(statsData) {
+                if (statsData.data && statsData.data.length > 0) {
+                    displayDetailedStats(statsData.data[0]);
+                } else {
+                    alert("Detailed stats not available for this player.");
+                }
+            });
+        }).fail(function() {
+            console.error("Error fetching player data.");
         });
-}
+    });
+});
 
 function displayGeneralInfo(player) {
-    const playerTable = document.querySelector("#playerTable tbody");
-    playerTable.innerHTML = `
+    const playerTable = $("#playerTable tbody");
+    playerTable.html(`
         <tr><td>Name</td><td>${player.first_name} ${player.last_name}</td></tr>
         <tr><td>Position</td><td>${player.position}</td></tr>
         <tr><td>Height</td><td>${player.height_feet} ft ${player.height_inches} in</td></tr>
         <tr><td>Weight</td><td>${player.weight_pounds} lbs</td></tr>
         <tr><td>Team</td><td>${player.team.full_name}</td></tr>
-    `;
+    `);
 }
 
 function displayDetailedStats(stats) {
-    const statsTable = document.querySelector("#statsTable tbody");
-    statsTable.innerHTML = ""; // Clear previous data
+    const statsTable = $("#statsTable tbody");
+    statsTable.empty(); // Clear previous data
 
     const statNames = {
         "games_played": "Games Played",
@@ -132,17 +129,16 @@ function displayDetailedStats(stats) {
         "ft_pct": "Free Throw Percentage"
     };
 
-    for (const key in stats) {
-        if (statNames[key]) {
+    for (const key in statNames) {
+        if (stats[key] !== undefined) {
             const row = `<tr><td>${statNames[key]}</td><td>${stats[key]}</td></tr>`;
-            statsTable.innerHTML += row;
+            statsTable.append(row);
         }
     }
 }
 
+
 </script>
-
-
 
 </body>
 </html>
