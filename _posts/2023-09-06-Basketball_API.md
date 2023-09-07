@@ -1,35 +1,36 @@
 ---
-title: NBA Player Stat Tracker
+title: NBA Player Stats
 layout: default
-description: Get detailed statistics and visualizations of NBA players.
+description: Fetch and visualize NBA player stats
 ---
 
-<!DOCTYPE html>
+Cam on m8
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Player Stat Tracker</title>
+    <title>NBA Player Stats</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
 
-        #playerTable {
+        table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
 
-        #playerTable th, #playerTable td {
+        table th, table td {
             border: 1px solid #ddd;
             padding: 8px;
         }
 
-        #playerTable th {
+        table th {
             background-color: #f2f2f2;
         }
     </style>
@@ -38,9 +39,8 @@ description: Get detailed statistics and visualizations of NBA players.
 <body>
 
 <input type="text" id="playerName" placeholder="Enter player name">
-<button id="fetchButton">Get Player Stats</button>
-<p id="errorMessage" style="color: red;"></p>
-
+<button onclick="fetchPlayerData()">Get Player Stats</button>
+<h3>General Info</h3>
 <table id="playerTable">
     <thead>
         <tr>
@@ -51,56 +51,96 @@ description: Get detailed statistics and visualizations of NBA players.
     <tbody></tbody>
 </table>
 
+<h3>Detailed Stats</h3>
+<table id="statsTable">
+    <thead>
+        <tr>
+            <th>Stat</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
 <script>
-document.getElementById("fetchButton").addEventListener("click", fetchPlayerData);
-
 function fetchPlayerData() {
-    const playerName = document.getElementById("playerName").value;
-    const apiUrl = `https://www.balldontlie.io/api/v1/players?search=${playerName}`;
+    const playerName = document.getElementById("playerName").value.split(" ");
+    const firstName = playerName[0];
+    const lastName = playerName[1];
 
-    fetch(apiUrl)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Failed to fetch player data");
-            }
-            return response.json();
-        })
+    fetch(`https://www.balldontlie.io/api/v1/players?search=${firstName}%20${lastName}`)
+        .then(response => response.json())
         .then(data => {
-            if (data.data.length > 0) {
-                const player = data.data[0];
-                fetchPlayerSeasonStats(player.id);
-            } else {
-                document.getElementById("errorMessage").textContent = "Player not found!";
-            }
+            const player = data.data[0];
+            displayGeneralInfo(player);
+
+            // Fetch detailed stats using player's ID for the 2022 season
+            fetch(`https://www.balldontlie.io/api/v1/season_averages?season=2022&player_ids[]=${player.id}`)
+                .then(response => response.json())
+                .then(statsData => {
+                    if (statsData.data && statsData.data.length > 0) {
+                        displayDetailedStats(statsData.data[0]);
+                    } else {
+                        alert("Detailed stats not available for this player.");
+                    }
+                });
         })
         .catch(error => {
             console.error("Error fetching player data:", error);
         });
 }
 
-function fetchPlayerSeasonStats(playerId) {
-    const seasonStatsUrl = `https://www.balldontlie.io/api/v1/season_averages?season=2022&player_ids[]=${playerId}`;
-
-    fetch(seasonStatsUrl)
-        .then(response => response.json())
-        .then(data => {
-            if (data.data.length > 0) {
-                const stats = data.data[0];
-                document.querySelector("#playerTable tbody").innerHTML = `
-                    <tr><td>Points Per Game</td><td>${stats.pts}</td></tr>
-                    <tr><td>Assists Per Game</td><td>${stats.ast}</td></tr>
-                    <tr><td>Rebounds Per Game</td><td>${stats.reb}</td></tr>
-                    <tr><td>Field Goal Percentage</td><td>${stats.fg_pct}</td></tr>
-                    <tr><td>Free Throw Percentage</td><td>${stats.ft_pct}</td></tr>
-                    <tr><td>Three Point Percentage</td><td>${stats.fg3_pct}</td></tr>
-                `;
-            }
-        })
-        .catch(error => {
-            console.error("Error fetching player season stats:", error);
-        });
+function displayGeneralInfo(player) {
+    const playerTable = document.querySelector("#playerTable tbody");
+    playerTable.innerHTML = `
+        <tr><td>Name</td><td>${player.first_name} ${player.last_name}</td></tr>
+        <tr><td>Position</td><td>${player.position}</td></tr>
+        <tr><td>Height</td><td>${player.height_feet} ft ${player.height_inches} in</td></tr>
+        <tr><td>Weight</td><td>${player.weight_pounds} lbs</td></tr>
+        <tr><td>Team</td><td>${player.team.full_name}</td></tr>
+    `;
 }
+
+function displayDetailedStats(stats) {
+    const statsTable = document.querySelector("#statsTable tbody");
+    statsTable.innerHTML = ""; // Clear previous data
+
+    const statNames = {
+        "games_played": "Games Played",
+        "player_id": "Player ID",
+        "season": "Season",
+        "min": "Minutes Played",
+        "fgm": "Field Goals Made",
+        "fga": "Field Goals Attempted",
+        "fg3m": "Three-Point Field Goals Made",
+        "fg3a": "Three-Point Field Goals Attempted",
+        "ftm": "Free Throws Made",
+        "fta": "Free Throws Attempted",
+        "oreb": "Offensive Rebounds",
+        "dreb": "Defensive Rebounds",
+        "reb": "Total Rebounds",
+        "ast": "Assists",
+        "stl": "Steals",
+        "blk": "Blocks",
+        "turnover": "Turnovers",
+        "pf": "Personal Fouls",
+        "pts": "Points",
+        "fg_pct": "Field Goal Percentage",
+        "fg3_pct": "Three-Point Field Goal Percentage",
+        "ft_pct": "Free Throw Percentage"
+    };
+
+    for (const key in stats) {
+        if (statNames[key]) {
+            const row = `<tr><td>${statNames[key]}</td><td>${stats[key]}</td></tr>`;
+            statsTable.innerHTML += row;
+        }
+    }
+}
+
 </script>
+
+
 
 </body>
 </html>
