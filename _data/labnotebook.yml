@@ -70,18 +70,7 @@
   plans:
     - Introduction to data visualization concepts
     - Begin learning linear regression
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
-      text: A Go at Data Visualization
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/15/Linear-Regression_IPYNB_2_.html
-      text: Linear Regression
-  review: N/A
-
-- week: 4
-  plans:
-    - Introduction to data visualization concepts
-    - Begin learning linear regression
-  hacks: []
+  hacks: N/A
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
       text: A Go at Data Visualization
@@ -93,7 +82,10 @@
   plans:
     - Dive deeper into machine learning basics
     - Understand matrix multiplication in the context of ML algorithms
-  hacks: []
+    - Learn about the Collegeboard 2D Array Question Archetype
+  hacks: 
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/19/FRQs_IPYNB_2_.html
+      text: Sample 2D Array FRQ
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html
       text: ML Basics
@@ -104,7 +96,11 @@
 - week: 6
   plans:
     - Continue exploring data preprocessing techniques
-  hacks: []
+    - Learn about Unit 5 of APCSA CB curriculum
+    - Study different types of methods, different return types, different types of parameters, mutator/accessor. static/non-static, and scope
+  hacks: 
+    - url: https://github.com/vardaansinha/unit5lesson/blob/main/_notebooks/2023-10-14-unit5secondpart.ipynb
+      text: Unit 5 Lesson Making
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html
       text: Data Preprocessing Continued
@@ -180,7 +176,7 @@
 - week: 12
   plans:
     - No new plans listed for this week
-  hacks: []
+  hacks: N/A
   tangibles:
     - No new tangibles for this week
   review: N/A
