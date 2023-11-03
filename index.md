@@ -44,7 +44,11 @@ I'm Vishnu Aravind, a Sacramento Kings fan and I like biology. In terms of CS, m
             </td>
             <td>
                 {% for hack in row.hacks %}
-                - {{ hack }}<br>
+                    {% if hack.url %}
+                        <a href="{{ hack.url }}">{{ hack.text }}</a><br>
+                    {% else %}
+                        - {{ hack }}<br>
+                    {% endif %}
                 {% endfor %}
             </td>
             <td>
@@ -53,12 +57,12 @@ I'm Vishnu Aravind, a Sacramento Kings fan and I like biology. In terms of CS, m
                 {% endfor %}
             </td>
             <td>
-                {% if row.review[0].url %}
+                {% if row.review %}
                     {% for review_item in row.review %}
                     <a href="{{ review_item.url }}">{{ review_item.text }}</a><br>
                     {% endfor %}
                 {% else %}
-                    {{ row.review }}
+                    N/A
                 {% endif %}
             </td>
         </tr>
