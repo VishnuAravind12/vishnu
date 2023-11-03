@@ -68,16 +68,75 @@
       
 - week: 4
   plans:
-    - Continue woking with Java
-    - Find a java equivalent for Matplotlib (J-free chart)
-    - Learn how to display data in Java
-  hacks: 
-    - None
-  tangibles: 
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html
-      text: JS Weather API
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/06/Basketball_API.html
-      text: JS BBall Stats API
-  review: 
-    - url: https://github.com/VishnuAravind12/vishnu/issues/3
-      text: Week 3 Review Ticket
+    - Introduction to data visualization concepts
+    - Begin learning linear regression
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
+      text: A Go at Data Visualization
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/15/Linear-Regression_IPYNB_2_.html
+      text: Linear Regression
+  review: N/A
+
+- week: 5
+  plans:
+    - Dive deeper into machine learning basics
+    - Understand matrix multiplication in the context of ML algorithms
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html
+      text: ML Basics
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/22/Matrix-Multiplication_IPYNB_2_.html
+      text: Matrix Multiplication
+  review: N/A
+
+- week: 6
+  plans:
+    - Continue exploring data preprocessing techniques
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html
+      text: Data Preprocessing Continued
+  review: N/A
+
+- week: 7
+  plans:
+    - Explore multi-variable linear regression
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/05/Multi-Variable-Linear-Regression_IPYNB_2_.html
+      text: Multi-Variable Linear Regression
+  review: N/A
+
+- week: 8
+  plans:
+    - Learn about data generation techniques
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/2023-Data-Generation_IPYNB_2_.html
+      text: 2023 Data Generation
+  review: N/A
+
+- week: 9
+  plans:
+    - No new plans listed for this week
+  tangibles:
+    - No new tangibles for this week
+  review: N/A
+
+- week: 10
+  plans:
+    - Apply multi-variable regression to grade prediction
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/25/Multi-Variable-Grade-Predictor_IPYNB_2_.html
+      text: Multi-Variable Grade Predictor
+  review: N/A
+
+- week: 11
+  plans:
+    - No new plans listed for this week
+  tangibles:
+    - No new tangibles for this week
+  review: N/A
+
+- week: 12
+  plans:
+    - No new plans listed for this week
+  tangibles:
+    - No new tangibles for this week
+  review: N/A
