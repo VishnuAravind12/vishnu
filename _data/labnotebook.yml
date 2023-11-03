@@ -77,10 +77,23 @@
       text: Linear Regression
   review: N/A
 
+- week: 4
+  plans:
+    - Introduction to data visualization concepts
+    - Begin learning linear regression
+  hacks: []
+  tangibles:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
+      text: A Go at Data Visualization
+    - url: https://vishnuaravind12.github.io/vishnu/2023/09/15/Linear-Regression_IPYNB_2_.html
+      text: Linear Regression
+  review: N/A
+
 - week: 5
   plans:
     - Dive deeper into machine learning basics
     - Understand matrix multiplication in the context of ML algorithms
+  hacks: []
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html
       text: ML Basics
@@ -91,6 +104,7 @@
 - week: 6
   plans:
     - Continue exploring data preprocessing techniques
+  hacks: []
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html
       text: Data Preprocessing Continued
@@ -99,6 +113,12 @@
 - week: 7
   plans:
     - Explore multi-variable linear regression
+    - Delve into integer and float operations in Java (Unit 1 Lesson)
+  hacks:
+    - url: https://github.com/VishnuAravind12/y2kpages/tree/main/_notebooks
+      text: Unit 1 Lesson - Integer and Float Operations in Java
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-2-Hacks_IPYNB_2_.html
+      text: Unit 2 Hacks
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/10/05/Multi-Variable-Linear-Regression_IPYNB_2_.html
       text: Multi-Variable Linear Regression
@@ -106,7 +126,14 @@
 
 - week: 8
   plans:
-    - Learn about data generation techniques
+    - Formulate data generation techniques in Java
+    - Understand booleans and control flow in Java (Unit 3 Lesson)
+    - Explore loops and iteration in Java (Unit 4 Lesson)
+  hacks:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-3-Booleans_IPYNB_2_.html
+      text: Unit 3 Booleans
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/Unit4Lesson_IPYNB_2_.html
+      text: Unit 4 Lesson
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/2023-Data-Generation_IPYNB_2_.html
       text: 2023 Data Generation
@@ -115,6 +142,9 @@
 - week: 9
   plans:
     - No new plans listed for this week
+  hacks:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/10/18/Unit6Arrays_IPYNB_2_.html
+      text: Unit 6 Arrays
   tangibles:
     - No new tangibles for this week
   review: N/A
@@ -122,6 +152,13 @@
 - week: 10
   plans:
     - Apply multi-variable regression to grade prediction
+    - Explore arrays and arraylists in Java (Unit 7 Lesson)
+    - Understand inheritance and polymorphism in Java (Unit 8 Lesson)
+  hacks:
+    - url: https://vishnuaravind12.github.io/vishnu/unit-7
+      text: Unit 7 Arrays and ArrayLists
+    - url: https://vishnuaravind12.github.io/vishnu/unit8lesson
+      text: Unit 8 Inheritance and Polymorphism
   tangibles:
     - url: https://vishnuaravind12.github.io/vishnu/2023/10/25/Multi-Variable-Grade-Predictor_IPYNB_2_.html
       text: Multi-Variable Grade Predictor
@@ -129,7 +166,13 @@
 
 - week: 11
   plans:
-    - No new plans listed for this week
+    - Explore exception handling and debugging practices (Unit 9 Lesson)
+    - Understand data structures and algorithms (Unit 10 Lesson)
+  hacks:
+    - url: https://vishnuaravind12.github.io/vishnu/c4.0/2023/10/30/Unit9LessonEDNP_IPYNB_2_.html
+      text: Unit 9 Exception Handling and Debugging
+    - url: https://vishnuaravind12.github.io/vishnu/lesson10okay
+      text: Unit 10 Data Structures and Algorithms
   tangibles:
     - No new tangibles for this week
   review: N/A
@@ -137,6 +180,7 @@
 - week: 12
   plans:
     - No new plans listed for this week
+  hacks: []
   tangibles:
     - No new tangibles for this week
   review: N/A
