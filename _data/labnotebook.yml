@@ -175,8 +175,13 @@
 
 - week: 12
   plans:
-    - No new plans listed for this week
-  hacks: N/A
+    - Finish the Collegeboard Assignment, and reflect upon it
+    - Reflect on what was done in the trimester as a whole
+  hacks:
+    - url: https://vishnuaravind12.github.io/vishnu/2023/11/03/CB_Corrections.html
+      text: CB Corrections and Reflection
+    - url: https://vishnuaravind12.github.io/vishnu/2023/11/04/First_Trimester_Reflection.html
+      text: First Trimester Reflection
   tangibles:
     - No new tangibles for this week
   review: N/A
