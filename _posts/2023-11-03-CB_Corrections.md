@@ -16,7 +16,7 @@ You chose B, suggesting that the output would be a floating-point result of the 
 **Correct Answer:** B
 
 **Explanation:**  
-You thought that the `manipulate` method would result in the list being reordered with "baboon" at the beginning. However, the correct answer, B, reflects the actual behavior of the `manipulate` method. The method iterates from the end of the list and only moves elements that start with "b" to the position calculated by `animals.size() - k`. This results in "baboon" being moved to the end, not the beginning.
+I thought that the `manipulate` method would result in the list being reordered with "baboon" at the beginning. However, the correct answer, B, reflects the actual behavior of the `manipulate` method. The method iterates from the end of the list and only moves elements that start with "b" to the position calculated by `animals.size() - k`. This results in "baboon" being moved to the end, not the beginning.
 
 ![]({{site.baseurl}}/images/problem23.PNG "Contents of animals List")
 
@@ -28,7 +28,7 @@ You thought that the `manipulate` method would result in the list being reordere
 **Correct Answer:** E
 
 **Explanation:**  
-You believed that `x` could sometimes be `1` at Point B, but after the first iteration, `x` will always be greater than `1` because it accumulates the sum of `x` and `y`. The correct answer is E, which states that `n` will always be greater than `2` at Point B because the loop continues while `n` is greater than `2`.
+I believed that `x` could sometimes be `1` at Point B, but after the first iteration, `x` will always be greater than `1` because it accumulates the sum of `x` and `y`. The correct answer is E, which states that `n` will always be greater than `2` at Point B because the loop continues while `n` is greater than `2`.
 
 ![]({{site.baseurl}}/images/problem28.PNG "Behavior of mystery Method")
 
@@ -40,7 +40,7 @@ You believed that `x` could sometimes be `1` at Point B, but after the first ite
 **Correct Answer:** C
 
 **Explanation:**  
-You thought an `ArrayIndexOutOfBoundsException` would be thrown, but the loop in the `mystery` method is carefully constructed to avoid going out of bounds. The correct answer is C, which accounts for the cumulative addition that occurs at each index, resulting in the final array `{5, 7, 8, 11, 19}`.
+I thought an `ArrayIndexOutOfBoundsException` would be thrown, but the loop in the `mystery` method is carefully constructed to avoid going out of bounds. The correct answer is C, which accounts for the cumulative addition that occurs at each index, resulting in the final array `{5, 7, 8, 11, 19}`.
 
 ![]({{site.baseurl}}/images/Capture31.PNG "Result of mystery Method on Array")
 
@@ -52,7 +52,7 @@ You thought an `ArrayIndexOutOfBoundsException` would be thrown, but the loop in
 **Correct Answer:** E
 
 **Explanation:**  
-You selected C, expecting the loop to terminate when `sum` reaches `12`. However, since `k` is never incremented within the loop, the condition `k < 4` remains true indefinitely, leading to an infinite loop. The correct answer is E, which recognizes this infinite loop.
+I selected C, expecting the loop to terminate when `sum` reaches `12`. However, since `k` is never incremented within the loop, the condition `k < 4` remains true indefinitely, leading to an infinite loop. The correct answer is E, which recognizes this infinite loop.
 
 ![]({{site.baseurl}}/images/problem33.PNG "Output of Code Segment with sum and k")
 
@@ -64,7 +64,7 @@ You selected C, expecting the loop to terminate when `sum` reaches `12`. However
 **Correct Answer:** B
 
 **Explanation:**  
-You thought that both the second and third code segments could correctly implement the `Circle` constructor. However, the third segment attempts to access private variables of the `Point` class directly, which is not allowed. The correct answer is B, which uses the `Point` constructor that takes two arguments to correctly initialize the `center` with the given `a` and `b` values.
+I thought that both the second and third code segments could correctly implement the `Circle` constructor. However, the third segment attempts to access private variables of the `Point` class directly, which is not allowed. The correct answer is B, which uses the `Point` constructor that takes two arguments to correctly initialize the `center` with the given `a` and `b` values.
 
 ![]({{site.baseurl}}/images/probelm34part1.PNG "Correct Implementation of Circle Constructor")
 ![]({{site.baseurl}}/images/problem34part2.PNG "Correct Implementation of Circle Constructor")
