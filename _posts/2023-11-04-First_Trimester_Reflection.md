@@ -4,7 +4,7 @@
 - My introduction to Java was much more of a tranquil journey. Since it was uncharted territory for all of us, I was on equal footing with my peers. The structured unit lessons provided a comprehensive understanding of Java's fundamentals and the principles of object-oriented programming (OOP). This methodical learning process allowed me to steadily grow in confidence and skill. I'm happy that I am familiar with the fundementals of Java, as now, I can code in a language that is much less resource intensive than a language like Python.
 - During the first trimester, a defining moment was collaborating with Akshat to build a web application that calculated NBA players' fantasy scores using a custom formula and data from an NBA API. This project was my introduction to data analytics in the classroom. We delved into the intricacies of the API, debated the weight of player statistics, and crafted an algorithm that balanced various performance metrics. Seeing our application accurately reflect players' on-court contributions was a rewarding testament to our teamwork and analytical skills.
 
-![NBA API Application](nbaapicapture.PNG)
+![]({{site.baseurl}}images/nbaapicapture.PNG, "NBA API at work")
 
 # Key Achievements
 
