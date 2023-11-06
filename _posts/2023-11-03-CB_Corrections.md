@@ -42,7 +42,7 @@ You believed that `x` could sometimes be `1` at Point B, but after the first ite
 **Explanation:**  
 You thought an `ArrayIndexOutOfBoundsException` would be thrown, but the loop in the `mystery` method is carefully constructed to avoid going out of bounds. The correct answer is C, which accounts for the cumulative addition that occurs at each index, resulting in the final array `{5, 7, 8, 11, 19}`.
 
-![]({{site.baseurl}}/images/problem31.PNG "Result of mystery Method on Array")
+![]({{site.baseurl}}/images/Capture31.PNG "Result of mystery Method on Array")
 
 ---
 
