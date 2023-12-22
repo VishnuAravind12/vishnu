@@ -1,7 +1,7 @@
 # Second CB Reflection
 
 **Score**: 38/39
-![]({{site.baseurl}}/images/scorePNg.PNG "Score")
+![]({{site.baseurl}}/images/scorePNG.PNG "Score")
 
 ## Key Learnings, Hurdles, and Exploration of Concepts
 
