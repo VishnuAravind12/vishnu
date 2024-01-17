@@ -9,7 +9,7 @@
 - [2D-Array](https://vishnuaravind12.github.io/vishnu/unit8lesson)
 - [Inheritance](https://vishnuaravind12.github.io/vishnu/c4.0/2023/10/30/Unit9LessonEDNP_IPYNB_2_.html)
 - [Recursion](https://vishnuaravind12.github.io/vishnu/lesson10okay)
-- [Lesson-Recap](FILL IN)
+- [Lesson-Recap](https://vishnuaravind12.github.io/vishnu/2024/01/17/Lessons_Review_1st_Tri.html)
 
 ## Collegeboard Tests
 
@@ -23,6 +23,10 @@
 - [Data-Prep](https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html)
 - [ML-Basics](https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html)
 
+## Organizational
+- [Timebox](https://vishnuaravind12.github.io/vishnu/)
+- [Lesson-Table](https://github.com/VishnuAravind12/vishnu/issues/6)
+
 ## Current Project Ideation
 
 - [Ideation](https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html)
@@ -30,3 +34,7 @@
 ## First Trimester Reflection
 
 - [The-Reflection](https://vishnuaravind12.github.io/vishnu/2023/11/04/First_Trimester_Reflection.html)
+
+## My Activity
+
+![]({{site.baseurl}}/images/commitactivity.PNG "Commit Activity")
