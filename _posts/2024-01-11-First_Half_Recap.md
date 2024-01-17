@@ -9,6 +9,7 @@
 - [2D-Array](https://vishnuaravind12.github.io/vishnu/unit8lesson)
 - [Inheritance](https://vishnuaravind12.github.io/vishnu/c4.0/2023/10/30/Unit9LessonEDNP_IPYNB_2_.html)
 - [Recursion](https://vishnuaravind12.github.io/vishnu/lesson10okay)
+- [Lesson-Recap](FILL IN)
 
 ## Collegeboard Tests
 
@@ -25,3 +26,7 @@
 ## Current Project Ideation
 
 - [Ideation](https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html)
+
+## First Trimester Reflection
+
+- [The-Reflection](https://vishnuaravind12.github.io/vishnu/2023/11/04/First_Trimester_Reflection.html)
