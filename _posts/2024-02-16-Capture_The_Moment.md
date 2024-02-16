@@ -1,7 +1,8 @@
 ---
-title: "Additional Review of Groups"
-layout: post
+toc: true
 comments: true
+layout: post
+title: Night At the Museum Reflection
 ---
 
 # Capturing the Moment: A Reflection on Our Journey Through Night at the Museum
