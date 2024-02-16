@@ -1,3 +1,9 @@
+---
+title: "Additional Review of Groups"
+layout: post
+comments: true
+---
+
 # Capturing the Moment: A Reflection on Our Journey Through Night at the Museum
 
 ## Two Trimester Focus Planning
