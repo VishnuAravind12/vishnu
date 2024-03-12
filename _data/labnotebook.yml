@@ -1,323 +1,323 @@
-- week: 0
-  plans:
-    - Install and get familiar with tools
-    - Get a feel for bash and wsl
-    - Get familiar with teammate
-  hacks:
-    - Tools installation
-    - Bash Notebook
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/Loving_My_Tools.html
-      text: Loving My Tools
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/linux-and-bash_IPYNB_2_.html
-      text: Linux and Bash
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/17/First_Post.html
-      text: First Post
-  review: N/A
+# - week: 0
+#   plans:
+#     - Install and get familiar with tools
+#     - Get a feel for bash and wsl
+#     - Get familiar with teammate
+#   hacks:
+#     - Tools installation
+#     - Bash Notebook
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/Loving_My_Tools.html
+#       text: Loving My Tools
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/22/linux-and-bash_IPYNB_2_.html
+#       text: Linux and Bash
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/17/First_Post.html
+#       text: First Post
+#   review: N/A
 
-- week: 1
-  plans:
-    - Learn the fundamentals of HTML/CSS/JS
-    - Best way to learn is from a project
-    - Learn fundamentals of Java (Constructors, Setters, Getters, Syntax)
-  hacks:
-    - Code a calculator using HTML/CSS/JS
-    - Do the HelloStatic Assignment
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/21/hellostatic_IPYNB_2_.html
-      text: Hello Static
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/20/Calculator.html
-      text: Calculator
-  review: N/A
+# - week: 1
+#   plans:
+#     - Learn the fundamentals of HTML/CSS/JS
+#     - Best way to learn is from a project
+#     - Learn fundamentals of Java (Constructors, Setters, Getters, Syntax)
+#   hacks:
+#     - Code a calculator using HTML/CSS/JS
+#     - Do the HelloStatic Assignment
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/21/hellostatic_IPYNB_2_.html
+#       text: Hello Static
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/20/Calculator.html
+#       text: Calculator
+#   review: N/A
 
-- week: 2
-  plans:
-    - Delve deeper into Java stuff (error handling, if/else)
-  hacks:
-    - Follow along with Mr. Mort for Snake Game Setup
-    - Code, using Java, a TicTacToe game for two players
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/30/Snake.html
-      text: Snake
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/24/Console-Games_IPYNB_2_.html
-      text: Console Games
-  review:
-    - url: https://github.com/VishnuAravind12/vishnu/issues/1
-      text: Specific Things for Improvement
-    - url: https://github.com/VishnuAravind12/vishnu/issues/2
-      text: Guidelines for Future Teamwork
+# - week: 2
+#   plans:
+#     - Delve deeper into Java stuff (error handling, if/else)
+#   hacks:
+#     - Follow along with Mr. Mort for Snake Game Setup
+#     - Code, using Java, a TicTacToe game for two players
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/30/Snake.html
+#       text: Snake
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/24/Console-Games_IPYNB_2_.html
+#       text: Console Games
+#   review:
+#     - url: https://github.com/VishnuAravind12/vishnu/issues/1
+#       text: Specific Things for Improvement
+#     - url: https://github.com/VishnuAravind12/vishnu/issues/2
+#       text: Guidelines for Future Teamwork
 
-- week: 3
-  plans:
-    - Continue woking with Java
-    - Start work with sprites
-    - Learn API Stuff, and jquery
-  hacks: 
-    - Use weather API to create simple application with HTML/CSS/JS for finding the weather in cities
-    - Use BallDontLie API to get started on basketball data web app
-    - Matrix Multiplication with Java
-    - Get Gold to move on key command
-  tangibles: 
-    - url: https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html
-      text: JS Weather API
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/06/Basketball_API.html
-      text: JS BBall Stats API
-  review: 
-    - url: https://github.com/VishnuAravind12/vishnu/issues/3
-      text: Week 3 Review Ticket
+# - week: 3
+#   plans:
+#     - Continue woking with Java
+#     - Start work with sprites
+#     - Learn API Stuff, and jquery
+#   hacks: 
+#     - Use weather API to create simple application with HTML/CSS/JS for finding the weather in cities
+#     - Use BallDontLie API to get started on basketball data web app
+#     - Matrix Multiplication with Java
+#     - Get Gold to move on key command
+#   tangibles: 
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/08/29/JS_Weather_API.html
+#       text: JS Weather API
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/06/Basketball_API.html
+#       text: JS BBall Stats API
+#   review: 
+#     - url: https://github.com/VishnuAravind12/vishnu/issues/3
+#       text: Week 3 Review Ticket
       
-- week: 4
-  plans:
-    - Introduction to data visualization concepts
-    - Begin learning linear regression
-  hacks: N/A
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
-      text: A Go at Data Visualization
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/15/Linear-Regression_IPYNB_2_.html
-      text: Linear Regression
-  review: N/A
+# - week: 4
+#   plans:
+#     - Introduction to data visualization concepts
+#     - Begin learning linear regression
+#   hacks: N/A
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/12/A-go-at-Data-Visualization_IPYNB_2_.html
+#       text: A Go at Data Visualization
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/15/Linear-Regression_IPYNB_2_.html
+#       text: Linear Regression
+#   review: N/A
 
-- week: 5
-  plans:
-    - Dive deeper into machine learning basics
-    - Understand matrix multiplication in the context of ML algorithms
-    - Learn about the Collegeboard 2D Array Question Archetype
-  hacks: 
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/19/FRQs_IPYNB_2_.html
-      text: Sample 2D Array FRQ
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html
-      text: ML Basics
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/22/Matrix-Multiplication_IPYNB_2_.html
-      text: Matrix Multiplication
-  review: N/A
+# - week: 5
+#   plans:
+#     - Dive deeper into machine learning basics
+#     - Understand matrix multiplication in the context of ML algorithms
+#     - Learn about the Collegeboard 2D Array Question Archetype
+#   hacks: 
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/19/FRQs_IPYNB_2_.html
+#       text: Sample 2D Array FRQ
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/20/ML_Basics.html
+#       text: ML Basics
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/22/Matrix-Multiplication_IPYNB_2_.html
+#       text: Matrix Multiplication
+#   review: N/A
 
-- week: 6
-  plans:
-    - Continue exploring data preprocessing techniques
-    - Learn about Unit 5 of APCSA CB curriculum
-    - Study different types of methods, different return types, different types of parameters, mutator/accessor. static/non-static, and scope
-  hacks: 
-    - url: https://github.com/vardaansinha/unit5lesson/blob/main/_notebooks/2023-10-14-unit5secondpart.ipynb
-      text: Unit 5 Lesson Making
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html
-      text: Data Preprocessing Continued
-  review: N/A
+# - week: 6
+#   plans:
+#     - Continue exploring data preprocessing techniques
+#     - Learn about Unit 5 of APCSA CB curriculum
+#     - Study different types of methods, different return types, different types of parameters, mutator/accessor. static/non-static, and scope
+#   hacks: 
+#     - url: https://github.com/vardaansinha/unit5lesson/blob/main/_notebooks/2023-10-14-unit5secondpart.ipynb
+#       text: Unit 5 Lesson Making
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/09/26/Data-Preprocessing_IPYNB_2_.html
+#       text: Data Preprocessing Continued
+#   review: N/A
 
-- week: 7
-  plans:
-    - Explore multi-variable linear regression
-    - Delve into integer and float operations in Java (Unit 1 Lesson)
-  hacks:
-    - url: https://github.com/VishnuAravind12/y2kpages/tree/main/_notebooks
-      text: Unit 1 Lesson - Integer and Float Operations in Java
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-2-Hacks_IPYNB_2_.html
-      text: Unit 2 Hacks
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/05/Multi-Variable-Linear-Regression_IPYNB_2_.html
-      text: Multi-Variable Linear Regression
-  review: N/A
+# - week: 7
+#   plans:
+#     - Explore multi-variable linear regression
+#     - Delve into integer and float operations in Java (Unit 1 Lesson)
+#   hacks:
+#     - url: https://github.com/VishnuAravind12/y2kpages/tree/main/_notebooks
+#       text: Unit 1 Lesson - Integer and Float Operations in Java
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-2-Hacks_IPYNB_2_.html
+#       text: Unit 2 Hacks
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/05/Multi-Variable-Linear-Regression_IPYNB_2_.html
+#       text: Multi-Variable Linear Regression
+#   review: N/A
 
-- week: 8
-  plans:
-    - Formulate data generation techniques in Java
-    - Understand booleans and control flow in Java (Unit 3 Lesson)
-    - Explore loops and iteration in Java (Unit 4 Lesson)
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-3-Booleans_IPYNB_2_.html
-      text: Unit 3 Booleans
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/Unit4Lesson_IPYNB_2_.html
-      text: Unit 4 Lesson
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/2023-Data-Generation_IPYNB_2_.html
-      text: 2023 Data Generation
-  review: N/A
+# - week: 8
+#   plans:
+#     - Formulate data generation techniques in Java
+#     - Understand booleans and control flow in Java (Unit 3 Lesson)
+#     - Explore loops and iteration in Java (Unit 4 Lesson)
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/08/Unit-3-Booleans_IPYNB_2_.html
+#       text: Unit 3 Booleans
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/Unit4Lesson_IPYNB_2_.html
+#       text: Unit 4 Lesson
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/12/2023-Data-Generation_IPYNB_2_.html
+#       text: 2023 Data Generation
+#   review: N/A
 
-- week: 9
-  plans:
-    - No new plans listed for this week
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/18/Unit6Arrays_IPYNB_2_.html
-      text: Unit 6 Arrays
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+# - week: 9
+#   plans:
+#     - No new plans listed for this week
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/18/Unit6Arrays_IPYNB_2_.html
+#       text: Unit 6 Arrays
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-- week: 10
-  plans:
-    - Apply multi-variable regression to grade prediction
-    - Explore arrays and arraylists in Java (Unit 7 Lesson)
-    - Understand inheritance and polymorphism in Java (Unit 8 Lesson)
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/unit-7
-      text: Unit 7 Arrays and ArrayLists
-    - url: https://vishnuaravind12.github.io/vishnu/unit8lesson
-      text: Unit 8 Inheritance and Polymorphism
-  tangibles:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/10/25/Multi-Variable-Grade-Predictor_IPYNB_2_.html
-      text: Multi-Variable Grade Predictor
-  review: N/A
+# - week: 10
+#   plans:
+#     - Apply multi-variable regression to grade prediction
+#     - Explore arrays and arraylists in Java (Unit 7 Lesson)
+#     - Understand inheritance and polymorphism in Java (Unit 8 Lesson)
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/unit-7
+#       text: Unit 7 Arrays and ArrayLists
+#     - url: https://vishnuaravind12.github.io/vishnu/unit8lesson
+#       text: Unit 8 Inheritance and Polymorphism
+#   tangibles:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/10/25/Multi-Variable-Grade-Predictor_IPYNB_2_.html
+#       text: Multi-Variable Grade Predictor
+#   review: N/A
 
-- week: 11
-  plans:
-    - Explore exception handling and debugging practices (Unit 9 Lesson)
-    - Understand data structures and algorithms (Unit 10 Lesson)
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/c4.0/2023/10/30/Unit9LessonEDNP_IPYNB_2_.html
-      text: Unit 9 Exception Handling and Debugging
-    - url: https://vishnuaravind12.github.io/vishnu/lesson10okay
-      text: Unit 10 Data Structures and Algorithms
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+# - week: 11
+#   plans:
+#     - Explore exception handling and debugging practices (Unit 9 Lesson)
+#     - Understand data structures and algorithms (Unit 10 Lesson)
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/c4.0/2023/10/30/Unit9LessonEDNP_IPYNB_2_.html
+#       text: Unit 9 Exception Handling and Debugging
+#     - url: https://vishnuaravind12.github.io/vishnu/lesson10okay
+#       text: Unit 10 Data Structures and Algorithms
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-- week: 12
-  plans:
-    - Finish the Collegeboard Assignment, and reflect upon it
-    - Reflect on what was done in the trimester as a whole
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/11/03/CB_Corrections.html
-      text: CB Corrections and Reflection
-    - url: https://vishnuaravind12.github.io/vishnu/2023/11/04/First_Trimester_Reflection.html
-      text: First Trimester Reflection
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 12
+#   plans:
+#     - Finish the Collegeboard Assignment, and reflect upon it
+#     - Reflect on what was done in the trimester as a whole
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/11/03/CB_Corrections.html
+#       text: CB Corrections and Reflection
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/11/04/First_Trimester_Reflection.html
+#       text: First Trimester Reflection
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 13
-  plans:
-    - Calm down, get acclimated
-    - Ideate on the mini project a tad
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/11/15/Ideation.html
-      text: Ideation for the Mini Project
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 13
+#   plans:
+#     - Calm down, get acclimated
+#     - Ideate on the mini project a tad
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/11/15/Ideation.html
+#       text: Ideation for the Mini Project
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 14
-  plans:
-    - Learn about JQuery
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/12/07/CRUD-JQUERY-HACKS_IPYNB_2_.html
-      text: JQUERY & CRUD HACKS
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 14
+#   plans:
+#     - Learn about JQuery
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/12/07/CRUD-JQUERY-HACKS_IPYNB_2_.html
+#       text: JQUERY & CRUD HACKS
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 15
-  plans:
-    - Learn about Hashmaps
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/12/13/HashmapsHashsetsCollections_IPYNB_2_.html
-      text: HASHMAPS HACKS
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 15
+#   plans:
+#     - Learn about Hashmaps
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/12/13/HashmapsHashsetsCollections_IPYNB_2_.html
+#       text: HASHMAPS HACKS
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 16
-  plans:
-    - Learn about Cybersecurity and Exploits
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/lab%20notebook/2023/12/18/JavaExploitsStudent_IPYNB_2_.html
-      text: java Exploits and Cybersecuity HACKS
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 16
+#   plans:
+#     - Learn about Cybersecurity and Exploits
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/lab%20notebook/2023/12/18/JavaExploitsStudent_IPYNB_2_.html
+#       text: java Exploits and Cybersecuity HACKS
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 17
-  plans:
-    - Grind out the Collegeboard Quiz and Write a Reflection
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2023/12/21/CB_Reflection_v2.html
-      text: 2015 Collegeboard FRQ Reflection
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 17
+#   plans:
+#     - Grind out the Collegeboard Quiz and Write a Reflection
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2023/12/21/CB_Reflection_v2.html
+#       text: 2015 Collegeboard FRQ Reflection
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 18
-  plans:
-    - Do Some CTF stuff, Really understand the Cyberness
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/09/CTF_Challenges_Blog.html
-      text: CTF Challenges
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/09/COORS_In_a_Project.html
-      text: COORS in Project
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 18
+#   plans:
+#     - Do Some CTF stuff, Really understand the Cyberness
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/09/CTF_Challenges_Blog.html
+#       text: CTF Challenges
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/09/COORS_In_a_Project.html
+#       text: COORS in Project
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 19
-  plans:
-    - Reflect on the First Half
-    - Take a crack at ideating for the final project
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/First_Half_Recap.html
-      text: First Half Recap
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html
-      text: Current ideation
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 19
+#   plans:
+#     - Reflect on the First Half
+#     - Take a crack at ideating for the final project
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/First_Half_Recap.html
+#       text: First Half Recap
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html
+#       text: Current ideation
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 20
-  plans:
-    - Continue to Work on Project Logsitics
-    - Review what I have learned so far
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/17/Lessons_Review_1st_Tri.html
-      text: Lessons Review 1st Tri
-    - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html
-      text: Current ideation
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 20
+#   plans:
+#     - Continue to Work on Project Logsitics
+#     - Review what I have learned so far
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/17/Lessons_Review_1st_Tri.html
+#       text: Lessons Review 1st Tri
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/01/11/Current_Ideation.html
+#       text: Current ideation
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 21
-  plans:
-    - N/A
-  hacks:
-    - N/A
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 21
+#   plans:
+#     - N/A
+#   hacks:
+#     - N/A
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 22
-  plans:
-    - Play with the NBA API
-    - Figure out how to do the Computations
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/05/NBA_TESTING.html
-      text: NBA Player Stats Testing
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 22
+#   plans:
+#     - Play with the NBA API
+#     - Figure out how to do the Computations
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/05/NBA_TESTING.html
+#       text: NBA Player Stats Testing
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 23
-  plans:
-    - N@TM Grinding
-    - Get Problem 1 Done
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/16/Capture_The_Moment.html
-      text: N@TM Reflection
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/15/2015-FRQ-Problem-1_IPYNB_2_.html
-      text: Problem 1
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 23
+#   plans:
+#     - N@TM Grinding
+#     - Get Problem 1 Done
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/16/Capture_The_Moment.html
+#       text: N@TM Reflection
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/15/2015-FRQ-Problem-1_IPYNB_2_.html
+#       text: Problem 1
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
 
-  - week: 24
-  plans:
-    - Problem 2, 3, 4
-  hacks:
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/16/2015-FRQ-Problem-2_IPYNB_2_.html
-      text: Problem 2
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/18/2015-FRQ-Problem-3_IPYNB_2_.html
-      text: Problem 3
-    - url: https://vishnuaravind12.github.io/vishnu/2024/02/20/2015-FRQ-Problem-4_IPYNB_2_.html
-      text: Problem 4
-  tangibles:
-    - No new tangibles for this week
-  review: N/A
+#   - week: 24
+#   plans:
+#     - Problem 2, 3, 4
+#   hacks:
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/16/2015-FRQ-Problem-2_IPYNB_2_.html
+#       text: Problem 2
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/18/2015-FRQ-Problem-3_IPYNB_2_.html
+#       text: Problem 3
+#     - url: https://vishnuaravind12.github.io/vishnu/2024/02/20/2015-FRQ-Problem-4_IPYNB_2_.html
+#       text: Problem 4
+#   tangibles:
+#     - No new tangibles for this week
+#   review: N/A
